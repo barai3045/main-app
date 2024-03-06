@@ -1,6 +1,6 @@
 
 
-const Contacts = () => {
+const loading = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Contacts = () => {
     );
 };
 
-export default Contacts;
+export default loading;
