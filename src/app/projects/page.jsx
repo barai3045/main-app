@@ -1,15 +1,14 @@
 import AllProject from "@/components/AllProject";
-import Brands from "@/components/Brands";
-import Contacts from "@/components/Contacts";
+import FeaturedProject from "@/components/FeaturedProject";
 
-const page = () => {
+
+const Page = () => {
     return (
-        <>
+        <div>
             <AllProject/>
-            <Brands/>
-            <Contacts/>
-        </>
+            <FeaturedProject/>
+        </div>
     );
 };
 
-export default page;
+export default Page;

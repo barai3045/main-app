@@ -5,10 +5,10 @@ export async function generateMetadata(){
     }
 }
 
-const layout = ({chieldren}) => {
+const layout = ({children}) => {
     return (
         <div>
-            {chieldren}
+            {children}
         </div>
     );
 };

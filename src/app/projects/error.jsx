@@ -1,6 +1,6 @@
 'use client'
 
-const error = () => {
+const Error = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const error = () => {
     );
 };
 
-export default error;
+export default Error;
